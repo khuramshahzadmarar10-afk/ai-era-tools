@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="6D4lxHFNARNkdjMBTcF5scKSAMYSRMAT3m2o-XaVsLA" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Use a free AI Prompt Generator, Token Counter, Word Counter, Image Compressor, QR Code Generator and secure Password Generator in your browser." />
+  <meta name="keywords" content="free AI tools, AI prompt generator, token counter, word counter, image compressor, QR code generator, secure password generator, free online browser tools" />
+  <link rel="icon" href="data:," />
+  <title>Free AI Prompt Generator, Token Counter &amp; Browser Tools | AI Era Tools</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7C86W9230"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-D7C86W9230');
+  </script>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg:#f3f7f8; --surface:#ffffff; --surface-2:#eef4f5; --ink:#0b1d26; --muted:#4d626d;
+      --line:#d1dee2; --accent:#087f86; --accent-2:#e86238; --accent-soft:#e1f4f3; --focus:#00656c;
+      --shadow:0 14px 38px rgba(20,48,60,.09),0 2px 8px rgba(20,48,60,.05);
+      --shadow-hover:0 24px 58px rgba(20,48,60,.15),0 5px 14px rgba(20,48,60,.08); --radius:22px;
+      --hero-ink:#f7ffff; --hero-muted:#cfe5e7; --hero-line:rgba(255,255,255,.24);
+    }
+    @media (prefers-color-scheme:dark){
+      :root{--bg:#091318;--surface:#112129;--surface-2:#182d35;--ink:#effafb;--muted:#a9bec6;--line:#2c4650;--accent:#58d8d5;--accent-2:#ff8d64;--accent-soft:#143d3f;--focus:#91ebe8;--shadow:0 18px 44px rgba(0,0,0,.30),0 2px 8px rgba(0,0,0,.22);--shadow-hover:0 28px 64px rgba(0,0,0,.42),0 6px 16px rgba(0,0,0,.28)}
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:linear-gradient(180deg,var(--bg) 0,var(--bg) 72%,var(--surface-2) 100%);color:var(--ink);font-family:"Aptos","Segoe UI Variable",ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+    button,input,textarea,select{font:inherit}
+    button,a,input,textarea,select{outline-offset:3px}
+    :focus-visible{outline:3px solid var(--focus)}
+    .shell{width:min(1160px,calc(100% - 32px));margin:auto}
+    .ad-container{display:flex;justify-content:center;align-items:center;width:100%;max-width:100%;margin:16px auto;overflow:hidden}
+    .tool-grid>.ad-container{grid-column:1/-1}
+    .hero{position:relative;isolation:isolate;overflow:hidden;margin-top:24px;margin-bottom:28px;padding:clamp(62px,9vw,104px) clamp(26px,5.5vw,72px) clamp(48px,7vw,72px);display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(34px,5vw,64px);align-items:end;border:1px solid rgba(255,255,255,.16);border-radius:30px;background:linear-gradient(128deg,#092934 0%,#075a61 54%,#0a7b7f 100%);box-shadow:0 28px 70px rgba(7,47,57,.25)}
+    .hero:before{content:"";position:absolute;z-index:-1;inset:0;background:radial-gradient(circle at 84% 12%,rgba(255,176,124,.24),transparent 24%),linear-gradient(110deg,transparent 52%,rgba(255,255,255,.07));pointer-events:none}
+    .hero:after{content:"";position:absolute;z-index:-1;width:300px;height:300px;border:1px solid rgba(255,255,255,.13);border-radius:50%;right:-105px;top:-128px;box-shadow:0 0 0 42px rgba(255,255,255,.035),0 0 0 84px rgba(255,255,255,.025);pointer-events:none}
+    .eyebrow{font:700 12px/1 ui-monospace,"SFMono-Regular",Consolas,monospace;letter-spacing:.14em;text-transform:uppercase;color:#8ff0ec;margin:0 0 20px}
+    h1{font-family:"Aptos Display","Segoe UI Variable Display","Segoe UI",sans-serif;font-size:clamp(44px,7vw,82px);font-weight:760;line-height:.95;letter-spacing:-.055em;margin:0;max-width:760px;color:var(--hero-ink)}
+    .hero h1 span{color:#ffc19e}
+    .hero-copy{font-size:clamp(17px,2vw,21px);color:var(--hero-muted);margin:26px 0 0;max-width:680px;line-height:1.6}
+    .hero-note{border-top:1px solid var(--hero-line);padding-top:20px;color:var(--hero-muted);font-size:14px;line-height:1.65}
+    .hero-note strong{display:block;color:var(--hero-ink);font:700 13px ui-monospace,"SFMono-Regular",Consolas,monospace;letter-spacing:.08em;margin-bottom:8px}
+    .tool-nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(16px) saturate(130%);border-block:1px solid color-mix(in srgb,var(--line) 76%,transparent);box-shadow:0 8px 24px rgba(18,43,53,.06)}
+    .tool-nav .shell{display:flex;gap:9px;overflow-x:auto;padding-block:11px;scrollbar-width:none}
+    .tool-nav .shell::-webkit-scrollbar{display:none}
+    .nav-btn{flex:0 0 auto;border:1px solid transparent;background:transparent;color:var(--muted);padding:9px 15px;border-radius:999px;cursor:pointer;font-size:14px;font-weight:700;transition:background-color .2s ease,color .2s ease,transform .2s ease,box-shadow .2s ease}
+    .nav-btn:hover{background:var(--surface);color:var(--ink);border-color:var(--line);transform:translateY(-1px)}
+    .nav-btn.active{background:var(--accent);color:#fff;box-shadow:0 7px 18px color-mix(in srgb,var(--accent) 28%,transparent)}
+    @media (prefers-color-scheme:dark){.nav-btn.active{color:#061314}}
+    .section-head{padding:82px 0 28px;display:flex;justify-content:space-between;gap:32px;align-items:end}
+    .section-head h2,.faq h2{font-family:"Aptos Display","Segoe UI Variable Display","Segoe UI",sans-serif;font-size:clamp(34px,4.3vw,52px);font-weight:750;line-height:1.02;letter-spacing:-.045em;margin:0}
+    .section-head p{margin:0;color:var(--muted);max-width:470px;font-size:16px;line-height:1.7}
+    .tool-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+    .tool-card{position:relative;background:var(--surface);border:1px solid color-mix(in srgb,var(--line) 86%,transparent);border-radius:var(--radius);padding:clamp(22px,3vw,34px);box-shadow:var(--shadow);scroll-margin-top:90px;min-width:0;transition:transform .26s ease,box-shadow .26s ease,border-color .26s ease}
+    .tool-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover);border-color:color-mix(in srgb,var(--accent) 30%,var(--line))}
+    .tool-card.wide{grid-column:1/-1}
+    .card-top{display:flex;align-items:flex-start;gap:17px;margin-bottom:25px}
+    .tool-icon{width:52px;height:52px;display:grid;place-items:center;color:var(--accent);background:linear-gradient(145deg,var(--accent-soft),color-mix(in srgb,var(--surface) 78%,var(--accent-soft)));border:1px solid color-mix(in srgb,var(--accent) 20%,var(--line));border-radius:15px;box-shadow:0 8px 20px color-mix(in srgb,var(--accent) 10%,transparent);flex:0 0 auto;transition:transform .25s ease,box-shadow .25s ease}
+    .tool-card:hover .tool-icon{transform:translateY(-2px) rotate(-2deg);box-shadow:0 11px 25px color-mix(in srgb,var(--accent) 16%,transparent)}
+    .tool-icon svg{width:25px;height:25px;stroke:currentColor;fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+    h3{font-family:"Aptos Display","Segoe UI Variable Display","Segoe UI",sans-serif;font-size:clamp(23px,2.3vw,28px);font-weight:750;line-height:1.15;margin:0 0 6px;letter-spacing:-.025em}
+    .card-top>div:nth-child(2)>span{color:var(--muted);font-size:14px}
+    .number{margin-left:auto;font:700 12px ui-monospace,"SFMono-Regular",Consolas,monospace;letter-spacing:.08em;color:var(--muted);padding-top:4px}
+    label{display:block;font-size:13px;font-weight:750;margin:0 0 8px;letter-spacing:.005em}
+    input[type="text"],input[type="password"],textarea,select{width:100%;border:1px solid var(--line);background:color-mix(in srgb,var(--bg) 78%,var(--surface));color:var(--ink);border-radius:12px;padding:13px 14px;box-shadow:inset 0 1px 2px rgba(12,36,46,.03);transition:border-color .2s ease,box-shadow .2s ease,background-color .2s ease}
+    textarea{min-height:128px;resize:vertical}
+    input:focus,textarea:focus,select:focus{border-color:var(--accent);background:var(--surface);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 12%,transparent)}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .field{margin-bottom:15px}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+    .btn{border:1px solid transparent;border-radius:11px;padding:11px 17px;font-weight:750;cursor:pointer;background:var(--accent);color:#fff;box-shadow:0 7px 17px color-mix(in srgb,var(--accent) 22%,transparent);display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}
+    @media(prefers-color-scheme:dark){.btn{color:#061314}}
+    .btn:hover{filter:brightness(.96);transform:translateY(-1px);box-shadow:0 10px 22px color-mix(in srgb,var(--accent) 28%,transparent)}
+    .btn:active{transform:translateY(0)}
+    .btn.secondary{background:var(--surface-2);color:var(--ink);border-color:var(--line);box-shadow:none}
+    .btn.secondary:hover{background:color-mix(in srgb,var(--surface-2) 78%,var(--accent-soft));box-shadow:0 7px 16px rgba(20,48,60,.07)}
+    .btn:disabled{opacity:.55;cursor:not-allowed;transform:none;box-shadow:none}
+    .output{margin-top:17px;background:var(--surface-2);border:1px solid color-mix(in srgb,var(--line) 74%,transparent);border-radius:14px;padding:16px;min-height:56px;white-space:pre-wrap;overflow-wrap:anywhere}
+    .output.empty{color:var(--muted);font-size:14px}
+    .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:15px}
+    .metric{background:var(--surface-2);border:1px solid color-mix(in srgb,var(--line) 66%,transparent);padding:14px 12px;border-radius:12px;min-width:0}
+    .metric b{display:block;font:700 21px ui-monospace,"SFMono-Regular",Consolas,monospace;overflow-wrap:anywhere}
+    .metric span{font-size:12px;color:var(--muted)}
+    .tool-intro{margin:-7px 0 22px;color:var(--muted);font-size:15px;line-height:1.7;max-width:880px}
+    .description{border-top:1px solid var(--line);padding-top:19px;margin:24px 0 0;color:var(--muted);font-size:14px;line-height:1.65}
+    .dropzone{position:relative;border:2px dashed color-mix(in srgb,var(--accent) 28%,var(--line));border-radius:15px;padding:31px;text-align:center;background:color-mix(in srgb,var(--accent-soft) 38%,var(--surface));cursor:pointer;transition:border-color .2s ease,background-color .2s ease,transform .2s ease}
+    .dropzone:hover{border-color:var(--accent);background:color-mix(in srgb,var(--accent-soft) 62%,var(--surface));transform:translateY(-1px)}
+    .dropzone input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
+    .dropzone strong{display:block;color:var(--ink);font-size:16px;margin-bottom:3px}
+    .dropzone span{color:var(--muted);font-size:13px}
+    .compress-controls{display:none;margin-top:18px}
+    .range-line{display:grid;grid-template-columns:1fr 52px;gap:10px;align-items:center}
+    input[type="range"]{width:100%;accent-color:var(--accent)}
+    .image-result{display:none;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;margin-top:16px}
+    .preview-box{background:var(--surface-2);border:1px solid color-mix(in srgb,var(--line) 72%,transparent);padding:11px;border-radius:14px;text-align:center;min-width:0}
+    .preview-box img{width:100%;height:180px;object-fit:contain;display:block;border-radius:8px}
+    .preview-box small{color:var(--muted)}
+    .qr-wrap{display:grid;grid-template-columns:1fr 190px;gap:22px;align-items:start}
+    #qrCanvas{width:190px;height:190px;background:white;border:10px solid white;border-radius:12px;box-shadow:0 10px 28px rgba(8,35,44,.13);display:block}
+    .password-line{display:flex;gap:8px}
+    .password-line input{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace}
+    .checks{display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;margin:14px 0}
+    .check{display:flex;align-items:center;gap:8px;font-size:14px}
+    .check input{accent-color:var(--accent);width:17px;height:17px}
+    .strength{height:8px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin-top:10px}
+    .strength span{display:block;height:100%;width:0;background:var(--accent-2);transition:width .2s,background .2s}
+    .status{font-size:13px;color:var(--muted);margin-top:7px;min-height:20px}
+    .privacy-strip{margin-top:38px;border:1px solid color-mix(in srgb,var(--accent) 22%,var(--line));border-radius:18px;padding:22px 24px;display:flex;gap:24px;justify-content:space-between;align-items:center;background:color-mix(in srgb,var(--accent-soft) 48%,var(--surface));box-shadow:0 9px 26px rgba(20,48,60,.06)}
+    .privacy-strip strong{font-family:"Aptos Display","Segoe UI Variable Display","Segoe UI",sans-serif;font-size:20px;letter-spacing:-.015em}
+    .privacy-strip p{margin:0;color:var(--muted);max-width:700px}
+    .faq{padding:96px 0 84px}
+    .faq-list{margin-top:32px;border-top:1px solid var(--line)}
+    details{border-bottom:1px solid var(--line);padding:20px 0}
+    summary{font-size:17px;font-weight:750;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px;transition:color .2s ease}
+    summary:hover{color:var(--accent)}
+    summary::-webkit-details-marker{display:none}
+    summary:after{content:"+";font:600 22px ui-monospace,"SFMono-Regular",Consolas,monospace;color:var(--accent)}
+    details[open] summary:after{content:"−"}
+    details p{color:var(--muted);max-width:790px;margin:12px 0 4px;line-height:1.7}
+    .info-pages{padding:8px 0 92px}
+    .info-intro{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);gap:34px;align-items:end;padding:62px 0 28px;border-top:1px solid var(--line)}
+    .info-intro h2{font-family:"Aptos Display","Segoe UI Variable Display","Segoe UI",sans-serif;font-size:clamp(34px,4.3vw,52px);font-weight:750;line-height:1.02;letter-spacing:-.045em;margin:0}
+    .info-intro p{margin:0;color:var(--muted);max-width:620px;justify-self:end;font-size:16px;line-height:1.7}
+    .info-page{scroll-margin-top:86px;padding:34px 0 38px;border-top:1px solid var(--line);display:grid;grid-template-columns:minmax(190px,.38fr) minmax(0,1fr);gap:clamp(28px,6vw,76px)}
+    .info-page:last-child{border-bottom:1px solid var(--line)}
+    .info-page h3{font-size:clamp(26px,3vw,34px);position:sticky;top:86px;align-self:start}
+    .policy-copy{max-width:760px}
+    .policy-copy h4{font-family:"Aptos Display","Segoe UI Variable Display","Segoe UI",sans-serif;font-size:19px;margin:28px 0 8px;letter-spacing:-.015em}
+    .policy-copy h4:first-child{margin-top:0}
+    .policy-copy p,.policy-copy li{color:var(--muted);line-height:1.75}
+    .policy-copy p{margin:0 0 14px}
+    .policy-copy ul{margin:8px 0 18px;padding-left:21px}
+    .policy-copy li+li{margin-top:7px}
+    .policy-copy a,footer a{color:var(--accent);font-weight:700;text-underline-offset:3px;text-decoration-thickness:1px}
+    .policy-copy a:hover,footer a:hover{text-decoration-thickness:2px}
+    .effective{font:700 12px ui-monospace,"SFMono-Regular",Consolas,monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:18px!important}
+    footer{border-top:1px solid var(--line);padding:30px 0 42px;color:var(--muted);font-size:13px}
+    footer .shell{display:grid;grid-template-columns:1fr auto;gap:14px 28px;align-items:center}
+    .footer-links{display:flex;gap:8px 20px;flex-wrap:wrap;justify-content:flex-end}
+    .footer-links a{white-space:nowrap}
+    .footer-note{grid-column:1/-1;border-top:1px solid color-mix(in srgb,var(--line) 70%,transparent);padding-top:16px}
+    .cookie-notice{position:fixed;left:50%;bottom:max(16px,env(safe-area-inset-bottom));transform:translateX(-50%);z-index:60;width:min(680px,calc(100% - 24px));display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 16px 14px 20px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow-hover)}
+    .cookie-notice p{margin:0;font-size:14px;line-height:1.45}
+    .cookie-notice .btn{flex:0 0 auto;padding:9px 16px}
+    .toast{position:fixed;right:18px;bottom:18px;background:var(--ink);color:var(--bg);padding:12px 17px;border-radius:11px;box-shadow:var(--shadow-hover);transform:translateY(90px);opacity:0;transition:.25s;z-index:50;font-weight:700;font-size:14px}
+    .toast.show{transform:none;opacity:1}
+    @media(max-width:800px){
+      .hero{grid-template-columns:1fr;gap:30px}.hero-note{max-width:560px}.tool-grid{grid-template-columns:1fr}.tool-card.wide{grid-column:auto}.section-head{display:block}.section-head p{margin-top:13px}.qr-wrap{grid-template-columns:1fr}.qr-wrap canvas{margin:auto}.privacy-strip{display:block}.privacy-strip p{margin-top:7px}.info-intro,.info-page{grid-template-columns:1fr}.info-intro p{justify-self:start}.info-page h3{position:static}footer .shell{grid-template-columns:1fr}.footer-links{justify-content:flex-start}.footer-note{grid-column:auto}
+    }
+    @media(max-width:520px){
+      .shell{width:min(100% - 22px,1160px)}.hero{margin-top:11px;margin-bottom:18px;padding:44px 22px 34px;border-radius:22px}.hero:after{right:-185px;top:-155px}.hero-copy{margin-top:21px}.tool-nav .shell{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));overflow:visible;gap:6px}.nav-btn{width:100%;padding:8px 4px;font-size:12px}.section-head{padding-top:60px}.tool-card{padding:22px 17px;border-radius:18px}.row{grid-template-columns:1fr}.metrics{grid-template-columns:1fr 1fr}.image-result{grid-template-columns:1fr}.checks{grid-template-columns:1fr}.password-line{flex-direction:column}.card-top{gap:13px}.tool-icon{width:46px;height:46px;border-radius:13px}.tool-icon svg{width:23px;height:23px}.number{display:none}.preview-box img{height:150px}.privacy-strip{padding:20px 18px}.faq{padding:72px 0 66px}.cookie-notice{gap:12px;padding:13px 13px 13px 16px}.cookie-notice p{font-size:13px}
+    }
+    @media(hover:none){.tool-card:hover{transform:none}.tool-card:hover .tool-icon{transform:none}.nav-btn:hover{transform:none}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="hero shell">
+    <div>
+      <p class="eyebrow">Useful by default · Free to use</p>
+      <h1>Free AI tools for <span>smarter work.</span></h1>
+      <p class="hero-copy">Create better AI prompts, estimate tokens, count words, compress images, generate QR codes, and build secure passwords — all in one fast browser workspace.</p>
+    </div>
+    <div class="hero-note"><strong>LOCAL PROCESSING</strong>Your tool inputs—text, images, and passwords—stay 100% in this browser tab and are never uploaded. Google Analytics sends site usage data, such as page views, to Google.</div>
+  </header>
+
+  <div class="shell" aria-label="Sponsored content">
+    <div class="ad-container">
+      <script async="async" data-cfasync="false" src="https://bauval.org/21/585fb4f531ec07cba65dd945efdd74c8"></script>
+      <div id="container-585fb4f531ec07cba65dd945efdd74c8"></div>
+    </div>
+    <div class="ad-container">
+      <script>atOptions={'key':'ad1ecdc89aad7529e70faacddbd7786a','format':'iframe','height':50,'width':320,'params':{}};</script>
+      <script src="https://bauval.org/22/ad1ecdc89aad7529e70faacddbd7786a"></script>
+    </div>
+  </div>
+
+  <nav class="tool-nav" aria-label="Tool navigation"><div class="shell">
+    <button class="nav-btn active" data-target="promptTool">Prompt</button>
+    <button class="nav-btn" data-target="tokenTool">Tokens</button>
+    <button class="nav-btn" data-target="wordTool">Words</button>
+    <button class="nav-btn" data-target="imageTool">Image</button>
+    <button class="nav-btn" data-target="qrTool">QR code</button>
+    <button class="nav-btn" data-target="passwordTool">Password</button>
+  </div></nav>
+
+  <main class="shell">
+    <section class="section-head" aria-labelledby="toolsHeading">
+      <h2 id="toolsHeading">Free AI Prompt Generator, Token Counter, Word Counter, Image Compressor, QR Code Generator &amp; Password Generator</h2>
+      <p>Use six fast online tools with no account, setup, or learning curve. Choose a browser utility, finish the job, and download or copy the result.</p>
+    </section>
+
+    <section class="tool-grid">
+      <article class="tool-card wide" id="promptTool">
+        <div class="card-top"><div class="tool-icon"><svg viewBox="0 0 24 24"><path d="M12 3l1.4 4.1L17.5 8.5l-4.1 1.4L12 14l-1.4-4.1-4.1-1.4 4.1-1.4L12 3Z"/><path d="M18 14l.8 2.2L21 17l-2.2.8L18 20l-.8-2.2L15 17l2.2-.8L18 14Z"/></svg></div><div><h3>AI Prompt Generator</h3><span>Turn a rough idea into a structured instruction.</span></div><span class="number">01</span></div>
+        <p class="tool-intro">Use this free AI prompt generator to turn a simple idea into a clear, detailed prompt for ChatGPT, Gemini, Claude, and other AI assistants. Choose the goal, format, tone, and audience to create a practical prompt for writing, marketing, coding, research, or visual concepts.</p>
+        <div class="row"><div class="field"><label for="promptTopic">What do you want to create?</label><input id="promptTopic" type="text" placeholder="e.g. A launch email for a fitness app" /></div><div class="field"><label for="promptFormat">Output type</label><select id="promptFormat"><option value="clear response">General response</option><option value="step-by-step guide">Step-by-step guide</option><option value="professional article">Article</option><option value="persuasive marketing copy">Marketing copy</option><option value="production-ready code">Code</option><option value="visual concept and shot list">Image / video concept</option></select></div></div>
+        <div class="row"><div class="field"><label for="promptTone">Tone</label><select id="promptTone"><option>Clear and professional</option><option>Friendly and conversational</option><option>Concise and direct</option><option>Creative and vivid</option><option>Technical and precise</option></select></div><div class="field"><label for="promptAudience">Audience (optional)</label><input id="promptAudience" type="text" placeholder="e.g. busy small-business owners" /></div></div>
+        <div class="actions"><button class="btn" id="generatePrompt">Generate prompt</button><button class="btn secondary" id="copyPrompt" disabled>Copy</button></div>
+        <div id="promptOutput" class="output empty" aria-live="polite">Your improved prompt will appear here.</div>
+        <p class="description">Create detailed AI prompts from a simple topic, tone, audience, and output goal. The generator adds useful context, constraints, and a clear response structure without calling an AI API.</p>
+      </article>
+
+      <article class="tool-card" id="tokenTool">
+        <div class="card-top"><div class="tool-icon"><svg viewBox="0 0 24 24"><path d="M8 5H5v14h3M16 5h3v14h-3M10 9h4M10 12h4M10 15h4"/></svg></div><div><h3>Token Counter</h3><span>Estimate AI context usage as you type.</span></div><span class="number">02</span></div>
+        <p class="tool-intro">Check an estimated AI token count before you submit a prompt, document, article, or transcript. This free online token counter also measures characters and words, helping you plan model context limits and understand how much text an AI request may use.</p>
+        <label for="tokenText">Text</label><textarea id="tokenText" placeholder="Paste a prompt, article, or transcript..."></textarea>
+        <div class="metrics"><div class="metric"><b id="tokenCount">0</b><span>Est. tokens</span></div><div class="metric"><b id="tokenChars">0</b><span>Characters</span></div><div class="metric"><b id="tokenWords">0</b><span>Words</span></div><div class="metric"><b id="tokenRatio">—</b><span>Chars / token</span></div></div>
+        <p class="description">Estimate token usage before sending text to an AI model. Results use a practical multilingual approximation; exact counts can vary by model and tokenizer.</p>
+      </article>
+
+      <article class="tool-card" id="wordTool">
+        <div class="card-top"><div class="tool-icon"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 9h11M4 13h16M4 17h9"/></svg></div><div><h3>Word Counter</h3><span>Analyze length and reading time instantly.</span></div><span class="number">03</span></div>
+        <p class="tool-intro">Analyze text instantly with a free online word counter for essays, articles, assignments, social media captions, video scripts, and SEO copy. See word count, character count, sentence count, and estimated reading time update as you type or paste content.</p>
+        <label for="wordText">Text</label><textarea id="wordText" placeholder="Start writing or paste your text..."></textarea>
+        <div class="metrics"><div class="metric"><b id="wordCount">0</b><span>Words</span></div><div class="metric"><b id="charCount">0</b><span>Characters</span></div><div class="metric"><b id="sentenceCount">0</b><span>Sentences</span></div><div class="metric"><b id="readTime">0 min</b><span>Reading time</span></div></div>
+        <p class="description">Count words, characters, and sentences in real time, with an estimated reading duration. Useful for articles, essays, social posts, scripts, and search snippets.</p>
+      </article>
+
+      <article class="tool-card wide" id="imageTool">
+        <div class="card-top"><div class="tool-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8" cy="9" r="1.5"/><path d="m5 17 4.5-4.5 3 3 2-2L19 17"/></svg></div><div><h3>Image Compressor</h3><span>Reduce image file size without an upload.</span></div><span class="number">04</span></div>
+        <p class="tool-intro">Compress images online without uploading them to a server. This private browser image compressor reduces JPEG, PNG, and WebP file sizes, lets you adjust image quality and maximum width, and creates a smaller WebP download for websites, email, and social media.</p>
+        <div class="dropzone" id="dropzone"><input id="imageInput" type="file" accept="image/jpeg,image/png,image/webp" aria-label="Choose an image"/><strong>Choose or drop an image</strong><span>JPEG, PNG, or WebP · processed only on your device</span></div>
+        <div class="compress-controls" id="compressControls"><div class="row"><div><label for="imageQuality">Quality</label><div class="range-line"><input id="imageQuality" type="range" min="20" max="95" value="78"/><output id="qualityValue">78%</output></div></div><div><label for="imageWidth">Maximum width</label><select id="imageWidth"><option value="0">Keep original width</option><option value="2560">2560 px</option><option value="1920">1920 px</option><option value="1280">1280 px</option><option value="800">800 px</option></select></div></div><div class="actions"><button class="btn" id="compressImage">Compress image</button><button class="btn secondary" id="downloadImage" disabled>Download</button></div></div>
+        <div class="image-result" id="imageResult"><div class="preview-box"><img id="originalPreview" alt="Original image preview"/><small id="originalMeta"></small></div><div class="preview-box"><img id="compressedPreview" alt="Compressed image preview"/><small id="compressedMeta"></small></div></div>
+        <div class="status" id="imageStatus" aria-live="polite"></div>
+        <p class="description">Compress JPEG, PNG, and WebP images directly in your browser. Adjust quality and dimensions, compare the result, then download a smaller WebP copy — your image never leaves the device.</p>
+      </article>
+
+      <div class="ad-container" aria-label="Sponsored content">
+        <script>atOptions={'key':'38f1f2026ee2e1727c08981e55137663','format':'iframe','height':250,'width':300,'params':{}};</script>
+        <script src="https://bauval.org/22/38f1f2026ee2e1727c08981e55137663"></script>
+      </div>
+
+      <article class="tool-card" id="qrTool">
+        <div class="card-top"><div class="tool-icon"><svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zM18 14h2v6h-4v-2h-2v2"/></svg></div><div><h3>QR Code Generator</h3><span>Create a scannable code and save it.</span></div><span class="number">05</span></div>
+        <p class="tool-intro">Create a QR code online from a website URL, short message, email address, or other text. This free QR code generator works directly in your browser and produces a scannable QR code that you can download as a high-resolution PNG image.</p>
+        <div class="qr-wrap"><div><div class="field"><label for="qrText">Text or URL</label><textarea id="qrText" maxlength="250" placeholder="https://example.com"></textarea></div><div class="actions"><button class="btn" id="generateQR">Generate QR</button><button class="btn secondary" id="downloadQR" disabled>Download PNG</button></div><div class="status" id="qrStatus" aria-live="polite">Up to 250 UTF-8 bytes.</div></div><canvas id="qrCanvas" width="380" height="380" aria-label="Generated QR code"></canvas></div>
+        <p class="description">Generate a standard QR code from a link, message, email, or short piece of text. The QR engine is built into this page, so generation works locally with no network request.</p>
+      </article>
+
+      <article class="tool-card" id="passwordTool">
+        <div class="card-top"><div class="tool-icon"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v2"/></svg></div><div><h3>Password Generator</h3><span>Make a strong password with secure randomness.</span></div><span class="number">06</span></div>
+        <p class="tool-intro">Generate a strong random password for an email, app, website, or online account. This secure password generator uses browser cryptography and gives you control over password length, uppercase and lowercase letters, numbers, and symbols without sending the result anywhere.</p>
+        <div class="password-line"><input id="passwordOutput" type="text" readonly aria-label="Generated password"/><button class="btn secondary" id="copyPassword">Copy</button></div>
+        <div class="field" style="margin-top:16px"><label for="passwordLength">Length: <output id="lengthValue">20</output></label><input id="passwordLength" type="range" min="8" max="64" value="20"/></div>
+        <div class="checks"><label class="check"><input id="useUpper" type="checkbox" checked/> Uppercase</label><label class="check"><input id="useLower" type="checkbox" checked/> Lowercase</label><label class="check"><input id="useNumbers" type="checkbox" checked/> Numbers</label><label class="check"><input id="useSymbols" type="checkbox" checked/> Symbols</label></div>
+        <button class="btn" id="generatePassword">Generate password</button>
+        <div class="strength"><span id="strengthBar"></span></div><div class="status" id="strengthLabel"></div>
+        <p class="description">Generate strong, unpredictable passwords using your browser's cryptographic random number generator. Choose the length and character types, then copy the result in one tap.</p>
+      </article>
+    </section>
+
+    <aside class="privacy-strip"><strong>Private by architecture.</strong><p>Every calculation happens in memory on your device. Reloading the page clears your inputs and results; there is no account, tracking form, or cloud storage.</p></aside>
+
+    <section class="faq" aria-labelledby="faqHeading"><h2 id="faqHeading">Frequently Asked Questions About Free Browser Tools</h2><div class="faq-list">
+      <details><summary>Are these tools really free?</summary><p>Yes. All six utilities are available without a subscription, sign-in, usage credit, or API key.</p></details>
+      <details><summary>Does the site upload my images or text?</summary><p>No. Inputs are processed by JavaScript inside your current browser tab. The image compressor uses the browser canvas, while the text tools analyze characters already on your device.</p></details>
+      <details><summary>Is the token count exact for every AI model?</summary><p>No universal counter can be exact for every model because tokenizers differ. This tool provides a practical estimate for planning context size and cost; use a model-specific tokenizer when exact billing matters.</p></details>
+      <details><summary>How should I choose image quality?</summary><p>Start around 75–80% for a good balance. Lower quality makes smaller files; reducing width often saves even more while keeping images sharp at their intended display size.</p></details>
+      <details><summary>Are generated passwords secure?</summary><p>The generator uses <code>crypto.getRandomValues</code>, the browser's cryptographically secure randomness source. Use a unique password for every account and store it in a trusted password manager.</p></details>
+    </div></section>
+
+    <section class="info-pages" aria-labelledby="siteInfoHeading">
+      <div class="info-intro"><h2 id="siteInfoHeading">About AI Era Tools, Privacy &amp; Terms</h2><p>Learn about these free online AI and browser utilities, who they help, how the site handles data, and the conditions that apply when you use it.</p></div>
+
+      <article class="info-page" id="privacy-policy" aria-labelledby="privacyHeading">
+        <h3 id="privacyHeading">Privacy Policy</h3>
+        <div class="policy-copy">
+          <p class="effective">Effective October 10, 2026</p>
+          <h4>Tool inputs stay in your browser</h4>
+          <p>AI Era Tools processes the text, images, QR content, and password settings you enter entirely inside your current browser. These tool inputs are not uploaded to AI Era Tools, sent to a server, stored in a database, or attached to an account. Reloading or closing the page clears the in-memory tool state.</p>
+          <p>If you download a compressed image or QR code, that file is saved only where you choose on your own device. If you copy a result, your browser and operating system manage the clipboard.</p>
+
+          <h4>Google Analytics site-usage data</h4>
+          <p>This site uses Google Analytics to understand how the website is used. Google Analytics sends site-usage information to Google, which may include page views, visit times, general device and browser information, operating system, referring page, approximate region, and interactions with the site. This analytics data is separate from the content you enter into the six tools.</p>
+          <p>Google processes Analytics data under its own privacy terms and may use cookies or similar identifiers to measure visits and recognize a browser. You can limit cookies through your browser settings or use Google's Analytics opt-out tools where available.</p>
+
+          <h4>Cookies and local storage</h4>
+          <p>AI Era Tools does not use cookies, local storage, or an account system to save your tool inputs. Google Analytics may set or read cookies and similar technologies for traffic measurement. Blocking Analytics cookies may reduce measurement accuracy, but the six browser tools will continue to work.</p>
+
+          <h4>Third-party links</h4>
+          <p>The site may link to third-party websites, including GitHub. When you follow an external link, that service's privacy policy and data practices apply. AI Era Tools does not control external websites.</p>
+
+          <h4>Contact</h4>
+          <p>For privacy questions or website feedback, contact us through the <a href="https://github.com/khuramshahzadmarar10-afk" target="_blank" rel="noopener noreferrer">AI Era Tools owner’s GitHub profile</a>.</p>
+        </div>
+      </article>
+
+      <article class="info-page" id="about-us" aria-labelledby="aboutHeading">
+        <h3 id="aboutHeading">About Us</h3>
+        <div class="policy-copy">
+          <p class="effective">Six practical tools · Free access</p>
+          <p>AI Era Tools is a focused collection of free online AI tools and browser utilities for everyday digital work. It brings an AI Prompt Generator, Token Counter, Word Counter, Image Compressor, QR Code Generator, and secure Password Generator together on one fast page. Each tool is designed to be easy to understand, useful on desktop or mobile, and available without creating an account, buying a subscription, or supplying an API key.</p>
+          <h4>Free tools for writing, images, links, and security</h4>
+          <p>The free AI Prompt Generator helps turn a rough idea into a structured instruction with a defined goal, audience, tone, and output format. The online Token Counter provides a practical estimate for AI prompts, articles, documents, and transcripts, while the Word Counter measures words, characters, sentences, and reading time for essays, blog posts, scripts, social captions, and SEO content.</p>
+          <p>For visual and sharing tasks, the browser Image Compressor reduces JPEG, PNG, and WebP file sizes with adjustable quality and width controls. The free QR Code Generator converts a URL or short text into a downloadable PNG QR code. The secure Password Generator creates random passwords with adjustable length, uppercase letters, lowercase letters, numbers, and symbols using cryptographically secure browser randomness.</p>
+          <h4>Designed for private, practical browser use</h4>
+          <p>These tools are built for students, writers, creators, marketers, freelancers, developers, teachers, small-business owners, and anyone who needs quick online utilities without a complicated workflow. Tool inputs are processed in the current browser tab rather than sent to an AI service or stored in an AI Era Tools account. That means text analysis, image compression, QR code creation, and password generation happen on the device you are using. Google Analytics measures general site usage separately, as explained in the Privacy Policy.</p>
+          <p>The goal is simple: provide reliable, accessible tools that help people write clearer prompts, plan AI token usage, check text length, make images smaller, create scannable QR codes, and generate stronger passwords from one convenient workspace. Questions or suggestions are welcome through the <a href="https://github.com/khuramshahzadmarar10-afk" target="_blank" rel="noopener noreferrer">owner’s GitHub profile</a>.</p>
+        </div>
+      </article>
+
+      <article class="info-page" id="terms-of-use" aria-labelledby="termsHeading">
+        <h3 id="termsHeading">Terms of Use</h3>
+        <div class="policy-copy">
+          <p class="effective">Effective October 10, 2026</p>
+          <p>By using AI Era Tools, you agree to these terms:</p>
+          <ul>
+            <li>The six tools are provided free of charge and on an “as is” and “as available” basis.</li>
+            <li>You are responsible for reviewing results and deciding whether they are accurate, suitable, and safe for your intended use.</li>
+            <li>Do not use the tools to break the law, harm others, invade privacy, distribute malicious content, gain unauthorized access, or abuse third-party services.</li>
+            <li>AI Era Tools does not guarantee uninterrupted availability or that every result will suit every browser, model, platform, or purpose.</li>
+            <li>You remain responsible for the text, images, links, passwords, and other content you enter or generate.</li>
+          </ul>
+          <p>If you do not agree with these terms, please do not use the site. Questions may be sent through the <a href="https://github.com/khuramshahzadmarar10-afk" target="_blank" rel="noopener noreferrer">owner’s GitHub profile</a>.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer><div class="shell"><span>© 2026 AI Era Tools</span><nav class="footer-links" aria-label="Site information"><a href="#privacy-policy">Privacy Policy</a><a href="#about-us">About Us</a><a href="#terms-of-use">Terms of Use</a><a href="https://github.com/khuramshahzadmarar10-afk" target="_blank" rel="noopener noreferrer">Contact on GitHub</a></nav><span class="footer-note">Fast utilities. No account required.</span></div></footer>
+  <aside class="cookie-notice" aria-label="Cookie notice"><p>We use cookies to improve your experience.</p><button class="btn" type="button" onclick="this.parentElement.style.display='none'">OK</button></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const showToast = msg => { const t=$('toast'); t.textContent=msg; t.classList.add('show'); clearTimeout(showToast.timer); showToast.timer=setTimeout(()=>t.classList.remove('show'),1800); };
+  const copyText = async text => { try{ await navigator.clipboard.writeText(text); showToast('Copied to clipboard'); }catch(e){ const a=document.createElement('textarea'); a.value=text; document.body.appendChild(a); a.select(); document.execCommand('copy'); a.remove(); showToast('Copied to clipboard'); } };
+
+  document.querySelectorAll('.nav-btn').forEach(btn=>btn.addEventListener('click',()=>{
+    document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); $(btn.dataset.target).scrollIntoView({behavior:'smooth',block:'start'});
+  }));
+
+  $('generatePrompt').addEventListener('click',()=>{
+    const topic=$('promptTopic').value.trim(); if(!topic){$('promptTopic').focus();showToast('Add a topic first');return;}
+    const format=$('promptFormat').value, tone=$('promptTone').value.toLowerCase(), audience=$('promptAudience').value.trim();
+    const audienceLine=audience?`The intended audience is ${audience}. `:'';
+    const prompt=`Act as an experienced specialist in the subject below.\n\nTASK\n${topic}\n\nCONTEXT AND GOAL\nCreate a ${format}. ${audienceLine}Use a ${tone} tone. Prioritize useful, specific information over generic advice.\n\nREQUIREMENTS\n• Begin with the most important outcome or insight.\n• Organize the response with clear headings or logical steps.\n• Include concrete examples where they improve understanding.\n• State any assumptions instead of inventing facts.\n• Remove repetition, filler, and unsupported claims.\n\nOUTPUT\nDeliver a polished result that can be used immediately. End with a short quality check confirming that every requirement was addressed.`;
+    $('promptOutput').textContent=prompt;$('promptOutput').classList.remove('empty');$('copyPrompt').disabled=false;
+  });
+  $('copyPrompt').addEventListener('click',()=>copyText($('promptOutput').textContent));
+
+  function words(text){return (text.trim().match(/[\p{L}\p{N}]+(?:['’.-][\p{L}\p{N}]+)*/gu)||[]).length;}
+  $('tokenText').addEventListener('input',e=>{
+    const text=e.target.value, w=words(text), nonAscii=(text.match(/[^\x00-\x7F]/g)||[]).length;
+    const est=text?Math.max(1,Math.ceil((text.length-nonAscii)/4 + nonAscii/1.7)):0;
+    $('tokenCount').textContent=est.toLocaleString();$('tokenChars').textContent=text.length.toLocaleString();$('tokenWords').textContent=w.toLocaleString();$('tokenRatio').textContent=est?(text.length/est).toFixed(1):'—';
+  });
+  $('wordText').addEventListener('input',e=>{
+    const text=e.target.value,w=words(text),sentences=(text.trim().match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[]).filter(s=>s.trim()).length;
+    $('wordCount').textContent=w.toLocaleString();$('charCount').textContent=text.length.toLocaleString();$('sentenceCount').textContent=sentences.toLocaleString();$('readTime').textContent=w?`${Math.max(1,Math.ceil(w/225))} min`:'0 min';
+  });
+
+  let sourceFile=null, sourceImage=null, compressedBlob=null, compressedUrl='';
+  const formatBytes=n=>n<1024?`${n} B`:n<1048576?`${(n/1024).toFixed(1)} KB`:`${(n/1048576).toFixed(2)} MB`;
+  function loadImageFile(file){
+    if(!file||!/^image\/(jpeg|png|webp)$/.test(file.type)){showToast('Choose a JPEG, PNG, or WebP image');return;}
+    if(file.size>25*1024*1024){showToast('Please choose an image under 25 MB');return;}
+    const url=URL.createObjectURL(file),img=new Image(); img.onload=()=>{sourceFile=file;sourceImage=img;$('originalPreview').src=url;$('originalMeta').textContent=`${img.naturalWidth} × ${img.naturalHeight} · ${formatBytes(file.size)}`;$('compressControls').style.display='block';$('imageResult').style.display='grid';$('compressedPreview').removeAttribute('src');$('compressedMeta').textContent='Ready to compress';$('downloadImage').disabled=true;$('imageStatus').textContent='Image loaded locally.';}; img.onerror=()=>{URL.revokeObjectURL(url);showToast('This image could not be opened');};img.src=url;
+  }
+  $('imageInput').addEventListener('change',e=>loadImageFile(e.target.files[0]));
+  ['dragenter','dragover'].forEach(x=>$('dropzone').addEventListener(x,e=>{e.preventDefault();$('dropzone').style.borderColor='var(--accent)';}));
+  ['dragleave','drop'].forEach(x=>$('dropzone').addEventListener(x,e=>{e.preventDefault();$('dropzone').style.borderColor='';}));
+  $('dropzone').addEventListener('drop',e=>loadImageFile(e.dataTransfer.files[0]));
+  $('imageQuality').addEventListener('input',e=>$('qualityValue').textContent=e.target.value+'%');
+  $('compressImage').addEventListener('click',()=>{
+    if(!sourceImage)return; const max=+$('imageWidth').value,q=+$('imageQuality').value/100,scale=max&&sourceImage.naturalWidth>max?max/sourceImage.naturalWidth:1,w=Math.round(sourceImage.naturalWidth*scale),h=Math.round(sourceImage.naturalHeight*scale);
+    const c=document.createElement('canvas');c.width=w;c.height=h;const ctx=c.getContext('2d');ctx.drawImage(sourceImage,0,0,w,h);
+    c.toBlob(blob=>{if(!blob){showToast('Compression failed');return;}compressedBlob=blob;if(compressedUrl)URL.revokeObjectURL(compressedUrl);compressedUrl=URL.createObjectURL(blob);$('compressedPreview').src=compressedUrl;const saved=Math.round((1-blob.size/sourceFile.size)*100);$('compressedMeta').textContent=`${w} × ${h} · ${formatBytes(blob.size)}${saved>0?` · ${saved}% smaller`:''}`;$('downloadImage').disabled=false;$('imageStatus').textContent=saved>0?`Saved ${formatBytes(sourceFile.size-blob.size)}.`:'Try a lower quality or smaller width for a smaller file.';},'image/webp',q);
+  });
+  $('downloadImage').addEventListener('click',()=>{if(!compressedBlob)return;const a=document.createElement('a');a.href=compressedUrl;a.download=(sourceFile.name.replace(/\.[^.]+$/,'')||'image')+'-compressed.webp';a.click();});
+
+  // Compact, dependency-free QR encoder: byte mode, error correction level L, versions 1–10.
+  const QR=(function(){
+    const EXP=new Array(512),LOG=new Array(256);let x=1;for(let i=0;i<255;i++){EXP[i]=x;LOG[x]=i;x<<=1;if(x&256)x^=0x11d;}for(let i=255;i<512;i++)EXP[i]=EXP[i-255];
+    const blocks=[null,[[1,26,19]],[[1,44,34]],[[1,70,55]],[[1,100,80]],[[1,134,108]],[[2,86,68]],[[2,98,78]],[[2,121,97]],[[2,146,116]],[[2,86,68],[2,87,69]]];
+    const align=[[],[],[6,18],[6,22],[6,26],[6,30],[6,34],[6,22,38],[6,24,42],[6,26,46],[6,28,50]];
+    function mul(a,b){return a&&b?EXP[LOG[a]+LOG[b]]:0}
+    function poly(n){let g=[1];for(let i=0;i<n;i++){const ng=new Array(g.length+1).fill(0);for(let j=0;j<g.length;j++){ng[j]^=g[j];ng[j+1]^=mul(g[j],EXP[i]);}g=ng;}return g}
+    function ecc(data,n){const gen=poly(n),res=new Array(n).fill(0);for(const b of data){const f=b^res.shift();res.push(0);if(f)for(let j=0;j<n;j++)res[j]^=mul(gen[j+1],f);}return res}
+    function bitsPush(a,val,len){for(let i=len-1;i>=0;i--)a.push((val>>>i)&1)}
+    function bch(v,p){let d=v;while((Math.floor(Math.log2(d))||0)>=(Math.floor(Math.log2(p))||0))d^=p<<(Math.floor(Math.log2(d))-Math.floor(Math.log2(p)));return d}
+    function mask(m,r,c){switch(m){case 0:return(r+c)%2===0;case 1:return r%2===0;case 2:return c%3===0;case 3:return(r+c)%3===0;case 4:return(Math.floor(r/2)+Math.floor(c/3))%2===0;case 5:return r*c%2+r*c%3===0;case 6:return(r*c%2+r*c%3)%2===0;default:return((r*c)%3+(r+c)%2)%2===0;}}
+    function reserve(version,maskId,test){const n=version*4+17,m=Array.from({length:n},()=>Array(n).fill(null));
+      function finder(row,col){for(let r=-1;r<=7;r++)for(let c=-1;c<=7;c++){if(row+r<0||row+r>=n||col+c<0||col+c>=n)continue;m[row+r][col+c]=(r>=0&&r<=6&&c>=0&&c<=6&&(r===0||r===6||c===0||c===6||(r>=2&&r<=4&&c>=2&&c<=4)));}}
+      finder(0,0);finder(n-7,0);finder(0,n-7);
+      for(const r of align[version])for(const c of align[version]){if(m[r][c]!==null)continue;for(let dr=-2;dr<=2;dr++)for(let dc=-2;dc<=2;dc++)m[r+dr][c+dc]=Math.max(Math.abs(dr),Math.abs(dc))!==1;}
+      for(let i=8;i<n-8;i++){if(m[i][6]===null)m[i][6]=i%2===0;if(m[6][i]===null)m[6][i]=i%2===0;}
+      const fb=((1<<3)|maskId)<<10;const fbits=(fb|bch(fb,0x537))^0x5412;
+      for(let i=0;i<15;i++){const v=!test&&((fbits>>i)&1)===1;if(i<6)m[i][8]=v;else if(i<8)m[i+1][8]=v;else m[n-15+i][8]=v;if(i<8)m[8][n-i-1]=v;else if(i<9)m[8][15-i]=v;else m[8][15-i-1]=v;}m[n-8][8]=!test;
+      if(version>=7){const vb=version<<12|bch(version<<12,0x1f25);for(let i=0;i<18;i++){const v=!test&&((vb>>i)&1)===1;m[Math.floor(i/3)][i%3+n-11]=v;m[i%3+n-11][Math.floor(i/3)]=v;}}
+      return m;
+    }
+    function lost(m){const n=m.length;let p=0;for(let r=0;r<n;r++)for(let c=0;c<n;c++){let same=0;for(let dr=-1;dr<=1;dr++)for(let dc=-1;dc<=1;dc++)if((dr||dc)&&r+dr>=0&&r+dr<n&&c+dc>=0&&c+dc<n&&m[r][c]===m[r+dr][c+dc])same++;if(same>5)p+=3+same-5;}
+      for(let r=0;r<n-1;r++)for(let c=0;c<n-1;c++){const s=+m[r][c]+ +m[r+1][c]+ +m[r][c+1]+ +m[r+1][c+1];if(s===0||s===4)p+=3;}
+      const pat='1011101';for(let r=0;r<n;r++){const s=m[r].map(v=>v?1:0).join('');for(let i=0;i<=n-7;i++)if(s.slice(i,i+7)===pat)p+=40;}for(let c=0;c<n;c++){let s='';for(let r=0;r<n;r++)s+=m[r][c]?1:0;for(let i=0;i<=n-7;i++)if(s.slice(i,i+7)===pat)p+=40;}
+      let dark=0;m.forEach(row=>row.forEach(v=>{if(v)dark++}));p+=Math.floor(Math.abs(100*dark/n/n-50)/5)*10;return p;
+    }
+    function make(text){const data=Array.from(new TextEncoder().encode(text));let version=0,defs,totalData;for(let v=1;v<=10;v++){defs=blocks[v];totalData=defs.reduce((s,b)=>s+b[0]*b[2],0);const cc=v<10?8:16;if(4+cc+data.length*8<=totalData*8){version=v;break;}}if(!version)throw new Error('Text is too long for this QR generator.');
+      const raw=[];bitsPush(raw,4,4);bitsPush(raw,data.length,version<10?8:16);data.forEach(b=>bitsPush(raw,b,8));const cap=totalData*8;for(let i=0;i<Math.min(4,cap-raw.length);i++)raw.push(0);while(raw.length%8)raw.push(0);let pad=true;while(raw.length<cap){bitsPush(raw,pad?0xec:0x11,8);pad=!pad;}
+      const bytes=[];for(let i=0;i<raw.length;i+=8){let b=0;for(let j=0;j<8;j++)b=b*2+raw[i+j];bytes.push(b)}let off=0,ds=[],es=[];defs.forEach(d=>{for(let k=0;k<d[0];k++){const block=bytes.slice(off,off+d[2]);off+=d[2];ds.push(block);es.push(ecc(block,d[1]-d[2]));}});const code=[];for(let i=0;i<Math.max(...ds.map(a=>a.length));i++)ds.forEach(a=>{if(i<a.length)code.push(a[i])});for(let i=0;i<Math.max(...es.map(a=>a.length));i++)es.forEach(a=>{if(i<a.length)code.push(a[i])});const stream=[];code.forEach(b=>bitsPush(stream,b,8));
+      let best=null,score=Infinity;for(let mk=0;mk<8;mk++){const m=reserve(version,mk,false),n=m.length;let row=n-1,inc=-1,bi=0;for(let col=n-1;col>0;col-=2){if(col===6)col--;while(true){for(let c=0;c<2;c++){const cc=col-c;if(m[row][cc]===null){let v=bi<stream.length&&stream[bi++]===1;if(mask(mk,row,cc))v=!v;m[row][cc]=v;}}row+=inc;if(row<0||row>=n){row-=inc;inc=-inc;break;}}}const s=lost(m);if(s<score){score=s;best=m;}}return best;
+    }
+    return {make};
+  })();
+  function drawQR(){const text=$('qrText').value.trim();if(!text){showToast('Enter text or a URL');$('qrText').focus();return;}try{const matrix=QR.make(text),canvas=$('qrCanvas'),ctx=canvas.getContext('2d'),quiet=4,total=matrix.length+quiet*2,scale=Math.floor(canvas.width/total),used=scale*total,offset=Math.floor((canvas.width-used)/2);ctx.fillStyle='#fff';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.fillStyle='#07191c';for(let r=0;r<matrix.length;r++)for(let c=0;c<matrix.length;c++)if(matrix[r][c])ctx.fillRect(offset+(c+quiet)*scale,offset+(r+quiet)*scale,scale,scale);$('downloadQR').disabled=false;$('qrStatus').textContent=`QR version ${Math.floor((matrix.length-17)/4)} · ${new TextEncoder().encode(text).length} bytes`; }catch(e){$('qrStatus').textContent=e.message;showToast(e.message);}}
+  $('generateQR').addEventListener('click',drawQR);$('downloadQR').addEventListener('click',()=>{const a=document.createElement('a');a.href=$('qrCanvas').toDataURL('image/png');a.download='qr-code.png';a.click();});
+  (function blankQR(){const c=$('qrCanvas'),x=c.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,c.width,c.height);x.fillStyle='#d9e1e3';for(let r=0;r<21;r++)for(let col=0;col<21;col++)if((r+col*3)%7===0)x.fillRect(35+col*15,35+r*15,11,11);})();
+
+  const sets={upper:'ABCDEFGHJKLMNPQRSTUVWXYZ',lower:'abcdefghijkmnopqrstuvwxyz',numbers:'23456789',symbols:'!@#$%&*+-=?'};
+  function securePick(str){const a=new Uint32Array(1),limit=Math.floor(0x100000000/str.length)*str.length;do{crypto.getRandomValues(a)}while(a[0]>=limit);return str[a[0]%str.length];}
+  function shuffle(arr){for(let i=arr.length-1;i>0;i--){const a=new Uint32Array(1);crypto.getRandomValues(a);const j=a[0]%(i+1);[arr[i],arr[j]]=[arr[j],arr[i]];}return arr;}
+  function generatePassword(){const enabled=[];if($('useUpper').checked)enabled.push(sets.upper);if($('useLower').checked)enabled.push(sets.lower);if($('useNumbers').checked)enabled.push(sets.numbers);if($('useSymbols').checked)enabled.push(sets.symbols);if(!enabled.length){$('useLower').checked=true;enabled.push(sets.lower);showToast('At least one character type is required');}const len=+$('passwordLength').value,all=enabled.join(''),out=enabled.map(securePick);while(out.length<len)out.push(securePick(all));$('passwordOutput').value=shuffle(out).join('');const entropy=Math.round(len*Math.log2(all.length)),pct=Math.min(100,entropy/1.2);$('strengthBar').style.width=pct+'%';$('strengthBar').style.background=entropy>=80?'var(--accent)':entropy>=55?'#d49b25':'var(--accent-2)';$('strengthLabel').textContent=entropy>=80?`Strong · about ${entropy} bits of entropy`:entropy>=55?`Good · about ${entropy} bits of entropy`:`Basic · about ${entropy} bits of entropy`;}
+  $('passwordLength').addEventListener('input',e=>{$('lengthValue').textContent=e.target.value;generatePassword();});document.querySelectorAll('.checks input').forEach(i=>i.addEventListener('change',generatePassword));$('generatePassword').addEventListener('click',generatePassword);$('copyPassword').addEventListener('click',()=>copyText($('passwordOutput').value));generatePassword();
+})();
+</script>
+<script data-cfasync="false" src="https://bauval.org/14/b2f6d6fc88ad8f9bae57f1751e71b48d"></script>
+</body>
+</html>
