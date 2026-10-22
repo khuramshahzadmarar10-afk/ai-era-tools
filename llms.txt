@@ -1,0 +1,5 @@
+# AIToolsGhar
+> Free AI browser tools: AI Prompt Generator, Token Counter, Word Counter, Image Compressor, QR Code Generator and secure Password Generator. Every tool runs locally in the visitor's browser. Free, no sign-up.
+
+- Home: https://khuramshahzadmarar10-afk.github.io/ai-era-tools/
+- Sitemap: https://khuramshahzadmarar10-afk.github.io/ai-era-tools/sitemap.xml
