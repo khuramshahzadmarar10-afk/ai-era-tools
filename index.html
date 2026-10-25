@@ -239,6 +239,10 @@
     @media(hover:none){.tool-card:hover{transform:none}.tool-card:hover .tool-icon{transform:none}.nav-btn:hover{transform:none}}
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
   </style>
+  <meta property="og:site_name" content="AIToolsGhar" />
+  <meta property="og:locale" content="en_PK" />
+  <meta name="theme-color" content="#087f86" />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
 </head>
 <body>
   <header class="hero shell">
@@ -297,7 +301,7 @@
         <p class="tool-intro">Compress images online without uploading them to a server. This private browser image compressor reduces JPEG, PNG, and WebP file sizes, lets you adjust image quality and maximum width, and creates a smaller WebP download for websites, email, and social media.</p>
         <div class="dropzone" id="dropzone"><input id="imageInput" type="file" accept="image/jpeg,image/png,image/webp" aria-label="Choose an image"/><strong>Choose or drop an image</strong><span>JPEG, PNG, or WebP · processed only on your device</span></div>
         <div class="compress-controls" id="compressControls"><div class="row"><div><label for="imageQuality">Quality</label><div class="range-line"><input id="imageQuality" type="range" min="20" max="95" value="78"/><output id="qualityValue">78%</output></div></div><div><label for="imageWidth">Maximum width</label><select id="imageWidth"><option value="0">Keep original width</option><option value="2560">2560 px</option><option value="1920">1920 px</option><option value="1280">1280 px</option><option value="800">800 px</option></select></div></div><div class="actions"><button class="btn" id="compressImage">Compress image</button><button class="btn secondary" id="downloadImage" disabled>Download</button></div></div>
-        <div class="image-result" id="imageResult"><div class="preview-box"><img id="originalPreview" alt="Original image preview"/><small id="originalMeta"></small></div><div class="preview-box"><img id="compressedPreview" alt="Compressed image preview"/><small id="compressedMeta"></small></div></div>
+        <div class="image-result" id="imageResult"><div class="preview-box"><img width="800" height="600" id="originalPreview" alt="Original image preview"/><small id="originalMeta"></small></div><div class="preview-box"><img width="800" height="600" id="compressedPreview" alt="Compressed image preview"/><small id="compressedMeta"></small></div></div>
         <div class="status" id="imageStatus" aria-live="polite"></div>
         <p class="description">Compress JPEG, PNG, and WebP images directly in your browser. Adjust quality and dimensions, compare the result, then download a smaller WebP copy — your image never leaves the device.</p>
       </article>
